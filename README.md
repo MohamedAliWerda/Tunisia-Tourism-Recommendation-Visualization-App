@@ -4,6 +4,10 @@ This project is a Python desktop application that analyzes tourism data and prov
 
 The application is developed with **Tkinter** for the graphical interface and integrates data analysis, recommendation logic, and interactive maps in a single desktop environment.
 
+![Architecture Diagram](https://img.shields.io/badge/Architecture-CountVectorizer%20%2B%20Bicosine_similarity%20%2B%20)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+
+
 ## ✨ Features
 
 ### 📊 Tourism Data Analysis
