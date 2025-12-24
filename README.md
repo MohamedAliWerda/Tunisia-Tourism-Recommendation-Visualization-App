@@ -1,81 +1,59 @@
-# Tunisia-Tourism-Recommendation-Visualization-App
-Python desktop application that analyzes tourism data and provides personalized travel recommendations in Tunisia using machine learning, and interactive visualization.  The application is developed with Tkinter for the graphical interface and integrates data analysis, recommendation logic, and interactive maps in a single desktop environment.
-✨ Features
+# 🇹🇳 Tunisia Tourism Recommendation & Visualization App
 
-📊 Tourism Data Analysis
+This project is a Python desktop application that analyzes tourism data and provides personalized travel recommendations in Tunisia using data science, machine learning, and interactive visualization.
 
-Analysis of Tunisian and world tourism datasets
+The application is developed with **Tkinter** for the graphical interface and integrates data analysis, recommendation logic, and interactive maps in a single desktop environment.
 
-Visual insights using Matplotlib (charts, comparisons, trends)
+## ✨ Features
 
-🎯 Smart Recommendation System
+### 📊 Tourism Data Analysis
+* **Comprehensive Analysis:** Analysis of Tunisian and world tourism datasets.
+* **Visual Insights:** Generates charts, comparisons, and trends using Matplotlib.
 
-Users select:
+### 🎯 Smart Recommendation System
+* **User Preferences:** Users can select:
+    * Category
+    * Subcategory
+    * Sub-subcategory
+    * Price range
+* **Hybrid Logic:** Recommendations are generated based on:
+    * **Text Similarity:** Matching user preferences vs. destinations.
+    * **Geographic Proximity:** Calculating distances using the Haversine formula.
 
-Category
+### 🗺️ Interactive Map Inside the App
+* **Embedded Maps:** Recommended destinations are displayed on a map rendered directly inside the application (not in a browser).
+* **Route Planning:** Routes are drawn automatically between selected locations.
+* **Smart Suggestions:** The nearest restaurant is automatically added to the trip.
 
-Subcategory
+### 🖥️ User-Friendly Desktop Interface
+* **GUI Based:** No command-line interaction required.
+* **Easy Controls:** Dropdowns and input fields for preferences.
+* **Interactive:** Buttons to generate recommendations and visual reports instantly.
 
-Sub-subcategory
+## 🧠 Technologies Used
+* **Python**
+* **Tkinter** – Desktop Graphical User Interface (GUI)
+* **Pandas & NumPy** – Data processing and manipulation
+* **Matplotlib** – Data visualization and plotting
+* **Scikit-learn** – Recommendation system logic (text similarity)
+* **Folium + HTML rendering** – Interactive map integration
+* **Geographic calculations** – Haversine distance formula
 
-Price range
+## 💻 Installation & Usage
 
-Recommendations are generated based on:
+### 1. Clone the Repository
+Open your terminal or command prompt and run the following command to download the project:
 
-Text similarity (user preferences vs destinations)
+```bash
+git clone [https://github.com/MohamedAliWerda/Tunisia-Tourism-Recommendation-Visualization-App.git](https://github.com/MohamedAliWerda/Tunisia-Tourism-Recommendation-Visualization-App.git)
+cd Tunisia-Tourism-Recommendation-Visualization-App
+```
+### 2. Install Dependencies
+```bash
+pip install pandas numpy matplotlib scikit-learn folium
+```
+### 3. Run the Application
 
-Geographic proximity (Haversine distance)
-
-🗺️ Interactive Map Inside the App
-
-Recommended destinations displayed on a map
-
-Routes drawn between selected locations
-
-Nearest restaurant automatically added to the trip
-
-Map rendered directly inside the application (not in the browser)
-
-🖥️ User-Friendly Desktop Interface
-
-No command-line interaction required
-
-Dropdowns and input fields for preferences
-
-Buttons to generate recommendations and visualizations
-
-🧠 Technologies Used
-
-Python
-
-Tkinter – Desktop GUI
-
-Pandas & NumPy – Data processing
-
-Matplotlib – Data visualization
-
-Scikit-learn – Recommendation system (text similarity)
-
-Folium + HTML rendering – Interactive maps
-
-Geographic calculations – Haversine distance
-
-📌 Project Purpose
-
-This project was developed as part of an academic data analysis and application development project, aiming to:
-
-Combine data science with user-centered design
-
-Demonstrate how analytics can improve tourism decision-making
-
-Build a complete end-to-end desktop application using Python
-
-🚀 Future Improvements
-
-Add real-time data updates
-
-Improve recommendation accuracy with user feedback
-
-Extend to international tourism destinations
-
-Enhance UI/UX with modern themes
+```bash
+python tourism.py
+```
