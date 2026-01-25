@@ -61,3 +61,11 @@ pip install pandas numpy matplotlib scikit-learn folium
 ```bash
 python tourism.py
 ```
+
+## 📁 Additional Assets
+
+### Workshop Poster
+The repository includes a professional poster design for the SOS Children's Village PUBLIC SPEAKING Workshop:
+- **Location:** `assets/posters/`
+- **Formats:** SVG (editable) and PNG (print-ready at 300 DPI)
+- **Details:** See `assets/posters/README.md` for printing and editing instructions
