@@ -77,9 +77,7 @@ For digital displays (screens, projectors, social media):
 - **White:** #FFFFFF
 - **Light Cyan Background:** #F0F9FA
 
-## License
-This poster design is part of the Tunisia Tourism Recommendation & Visualization App repository and follows the repository's license terms.
-
 ---
-Created: January 2026
-For: SOS Children's Village PUBLIC SPEAKING Workshop
+**Created:** January 2026  
+**For:** SOS Children's Village PUBLIC SPEAKING Workshop  
+**Note:** This poster is stored in this repository for convenience and distribution purposes.
