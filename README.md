@@ -61,3 +61,13 @@ pip install pandas numpy matplotlib scikit-learn folium
 ```bash
 python tourism.py
 ```
+
+## 📄 Poster Assets
+
+This repository includes poster designs for workshops and events. The posters are available in the `assets/posters/` directory.
+
+### Available Posters
+- **SOS Children's Village - Public Speaking Workshop** (A4 Portrait)
+  - SVG (editable): `assets/posters/sos_public_speaking_workshop.svg`
+  - PNG (300 DPI print-ready): `assets/posters/sos_public_speaking_workshop.png`
+  - [View documentation](assets/posters/README.md) for editing and printing instructions
